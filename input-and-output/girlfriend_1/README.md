@@ -1,11 +1,15 @@
-## Short lines
+## Girlfriend
 
 Taken from [Learn you a Haskell](http://learnyouahaskell.com/input-and-output#files-and-streams)
 
-## Compile
+## Execution without compilation
 
-> ghc --make ./girlfriend.hs
+```
+runhaskell ./girlfriend
+```
 
-## Execution
+## Compilation && Execution
 
-> ./girlfriend
+```
+ghc --make ./girlfriend.hs; ./girlfriend
+```

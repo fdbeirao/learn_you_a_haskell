@@ -1,16 +1,25 @@
-## Short lines
+## Palindromes
 
 Taken from [Learn you a Haskell](http://learnyouahaskell.com/input-and-output#files-and-streams)
 
-## Compile
+## Execution without compilation
 
-> ghc --make ./palindromes.hs
+```
+runhaskell ./palindromes
+elephant
+ABCBA
+whatever
+```
 
-## Execution
+**`Ctrl+C` to exit**
 
-> ./palindromes
-> elephant
-> ABCBA
-> whatever
+## Compilation && Execution
 
-(Ctrl+C) to exit
+```
+ghc --make ./palindromes.hs; ./palindromes
+elephant
+ABCBA
+whatever
+```
+
+**`Ctrl+C` to exit**

@@ -1,4 +1,4 @@
-import System.IO (withFile, hGetContents, putStr, openFile, hClose, IOMode(ReadMode), Handle)
+import System.IO (withFile, hGetContents, putStr, openFile, hClose, IOMode(ReadMode), Handle, FilePath)
 
 main :: IO ()
 main = do

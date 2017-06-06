@@ -1,4 +1,5 @@
 import System.IO (putStr, getContents)
+import Data.List (lines, unlines)
 
 main :: IO ()
 main = do

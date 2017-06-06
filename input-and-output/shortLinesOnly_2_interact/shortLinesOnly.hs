@@ -1,4 +1,5 @@
 import System.IO (interact)
+import Data.List (lines, unlines)
 
 main :: IO ()
 main = interact shortLinesOnly

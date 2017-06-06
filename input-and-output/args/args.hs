@@ -1,5 +1,6 @@
 import System.IO (putStrLn)
 import System.Environment (getArgs, getProgName)
+import Data.Traversable (mapM)
 
 main :: IO ()
 main = do

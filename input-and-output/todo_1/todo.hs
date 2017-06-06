@@ -1,6 +1,6 @@
 import System.IO (openFile, openTempFile, hGetContents, getLine, putStrLn, putStr, hPutStr, hClose, IOMode(ReadMode))
 import System.Directory (removeFile, renameFile)
-import Data.List (delete, (!!))
+import Data.List (lines, unlines, delete, (!!))
 
 main :: IO ()
 main = do

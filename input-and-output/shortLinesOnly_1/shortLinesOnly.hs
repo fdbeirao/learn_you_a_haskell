@@ -1,3 +1,4 @@
+main :: IO ()
 main = do
   contents <- getContents
   putStr (shortLinesOnly contents)

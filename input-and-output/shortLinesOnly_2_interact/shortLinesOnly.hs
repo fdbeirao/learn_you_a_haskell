@@ -1,3 +1,4 @@
+main :: IO ()
 main = interact shortLinesOnly
 
 shortLinesOnly :: String -> String

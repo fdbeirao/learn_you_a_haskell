@@ -1,3 +1,4 @@
+main :: IO ()
 main = interact respondPalindromes
 
 respondPalindromes :: String -> String

@@ -5,5 +5,7 @@
     "**/*.exe": true,
     "**/*.hi": true,
     "**/*.o": true
-  }
+  },
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true
 }

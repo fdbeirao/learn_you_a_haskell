@@ -1,4 +1,4 @@
-import System.IO
+import System.IO (readFile, putStr)
 
 main :: IO ()
 main = do

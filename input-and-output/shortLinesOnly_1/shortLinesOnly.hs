@@ -1,3 +1,5 @@
+import System.IO (putStr, getContents)
+
 main :: IO ()
 main = do
   contents <- getContents

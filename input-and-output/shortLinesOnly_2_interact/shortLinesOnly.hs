@@ -1,3 +1,5 @@
+import System.IO (interact)
+
 main :: IO ()
 main = interact shortLinesOnly
 
